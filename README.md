@@ -33,3 +33,7 @@ The following tools will be required for complete flow
 ## Detailed explanation:
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/Screenshot_45.png)
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/Screenshot_46.png)
+
+## Results:
+  After running the flow, the results directory will be generated. It will look like this:
+![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/ss_folder.png)
