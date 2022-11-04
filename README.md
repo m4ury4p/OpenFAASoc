@@ -7,7 +7,19 @@ The FASoC Program is focused on developing a complete system-on-chip (SoC) synth
 
 
 ## Tools for installation:
+<h4> Tool installation steps can be found here: </h4>
 
+https://openfasoc.readthedocs.io/en/latest/getting-started.html#installation
+
+You can either follow the express installation or the manual installation steps.
+
+The following tools will be required for complete flow
+1. OpenRoad
+2. Magic
+3. Yosys
+4. Klayout
+5. Open_PDK
+6. Netgen
 
 ## Understanding the floorplan flow:
   The flow after synthesis ot floorplan is given here.
