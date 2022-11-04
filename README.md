@@ -1,2 +1,2 @@
 # OpenFAASoc
-Repository containing my part in openfaasoc project
+Repository containing my part in openfaasoc project flow
