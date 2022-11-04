@@ -19,3 +19,5 @@ The FASoC Program is focused on developing a complete system-on-chip (SoC) synth
 
 
 ## Detailed explanation:
+![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/Screenshot_45.png)
+![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/Screenshot_46.png)
