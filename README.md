@@ -13,3 +13,9 @@ The FASoC Program is focused on developing a complete system-on-chip (SoC) synth
   The flow after synthesis ot floorplan is given here.
 <b>input</b> : Verilog netlist files which contain the description of the circuit.
 <b>output</b> : 2_1floorplan.odb , floorplan_io.odb, floorplan.macro.odb, 3_place.sdc
+
+## BLock diagram:
+
+
+
+## Detailed explanation:
