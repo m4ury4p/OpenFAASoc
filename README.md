@@ -7,3 +7,7 @@ The FASoC Program is focused on developing a complete system-on-chip (SoC) synth
 
 
 ## Tools for installation:
+
+
+## Understanding the floorplan flow:
+  The flow after synthesis ot floorplan is given here.
