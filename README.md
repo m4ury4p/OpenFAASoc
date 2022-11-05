@@ -32,10 +32,11 @@ These new netlist files are now available in the ```OpenFASOC/openfasoc/generato
 The netlist file:<br>
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/netlist_of.png)
 
-
+The placement check happens here:
+![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/placement_flow.png)
 
 ## BLock diagram:
-
+![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/total_flow.png)
 
 
 ## Detailed explanation:
