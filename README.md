@@ -25,7 +25,7 @@ The following tools will be required for complete flow
 
 after running the command ```make sky130hd_temp_verilog```, the python file ``` openfasoc/generators/temp-sense-gen/tools/temp-sense-gen.py ``` is executed.<br>
 
-This step converts template verilog files and auxilary cells into netlist verilog files.<br>
+This step converts template verilog files,synthesis.odb and auxilary cells into netlist verilog files.<br>
 
 These new netlist files are now available in the ```OpenFASOC/openfasoc/generators/temp-sense-gen/src folder``` and the ```OpenFASOC/openfasoc/generators/temp-sense-gen/flow/design/src/tempsense ``` <br>
 
@@ -51,7 +51,47 @@ The project directory in flow contains the python script to access the
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/ss_folder.png)
 
   The flow after synthesis ot floorplan is given here.
-<b>input</b> : Verilog netlist files which contain the description of the circuit.
+<b>input</b> : Verilog netlist files which contain the description of the circuit like TEMP_analog_hv_nl.v and TEMP_analog_lv_nl.v,1_synthesis.odb.
 <b>output</b> : 2_1floorplan.odb , floorplan_io.odb, floorplan.macro.odb.
 
 Currently trying to figure out how to convert.odb files into .def files which can be viewed using klayout or magic tools.
+
+<h4> Running the OpenFASOC Flow for temperature sensor generator </h4>
+
+1. Clone the openfasoc git repo using the below command
+
+```
+git clone https://github.com/idea-fasoc/openfasoc
+```
+
+2. Move to the required temp-sense-gen directory 
+```
+cd openfasoc/generators/temp-sense-gen
+```
+
+3. Give the following commands
+
+```
+make
+
+## Author 
+
+- **Maurya Patel** 
+
+
+## Contributors 
+
+- **Maurya Patel** 
+- **Kunal Ghosh** 
+
+
+## Acknowledgments
+
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+
+## Contact Information
+
+- Maurya Patel, Integrated MTech Student, International Institute of Information Technology, Bangalore  Maurya.Patel@iiitb.ac.in
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
+
