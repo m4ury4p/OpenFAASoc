@@ -22,6 +22,22 @@ The following tools will be required for complete flow
 6. Netgen
 
 ## Understanding the floorplan flow:
+
+after running the command ```make sky130hd_temp_verilog```, the python file ``` openfasoc/generators/temp-sense-gen/tools/temp-sense-gen.py ``` is executed.<br>
+
+This step converts template verilog files and auxilary cells into netlist verilog files.<br>
+
+These new netlist files are now available in the ```OpenFASOC/openfasoc/generators/temp-sense-gen/src folder``` and the ```OpenFASOC/openfasoc/generators/temp-sense-gen/flow/design/src/tempsense ``` <br>
+
+
+
+
+
+
+
+
+
+
   The flow after synthesis ot floorplan is given here.
 <b>input</b> : Verilog netlist files which contain the description of the circuit.
 <b>output</b> : 2_1floorplan.odb , floorplan_io.odb, floorplan.macro.odb, 3_place.sdc
@@ -31,6 +47,9 @@ The following tools will be required for complete flow
 
 
 ## Detailed explanation:
+
+The project directory in flow contains the python script to access the 
+
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/Screenshot_45.png)
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/Screenshot_46.png)
 
