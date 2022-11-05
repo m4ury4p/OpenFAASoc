@@ -29,18 +29,10 @@ This step converts template verilog files and auxilary cells into netlist verilo
 
 These new netlist files are now available in the ```OpenFASOC/openfasoc/generators/temp-sense-gen/src folder``` and the ```OpenFASOC/openfasoc/generators/temp-sense-gen/flow/design/src/tempsense ``` <br>
 
+The netlist file:<br>
+![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/netlist_of.png)
 
 
-
-
-
-
-
-
-
-  The flow after synthesis ot floorplan is given here.
-<b>input</b> : Verilog netlist files which contain the description of the circuit.
-<b>output</b> : 2_1floorplan.odb , floorplan_io.odb, floorplan.macro.odb, 3_place.sdc
 
 ## BLock diagram:
 
@@ -56,3 +48,9 @@ The project directory in flow contains the python script to access the
 ## Results:
   After running the flow, the results directory will be generated. It will look like this:
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/ss_folder.png)
+
+  The flow after synthesis ot floorplan is given here.
+<b>input</b> : Verilog netlist files which contain the description of the circuit.
+<b>output</b> : 2_1floorplan.odb , floorplan_io.odb, floorplan.macro.odb.
+
+Currently trying to figure out how to convert.odb files into .def files which can be viewed using klayout or magic tools.
