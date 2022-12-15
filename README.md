@@ -51,7 +51,7 @@ The netlist file:<br>
 The placement check happens here:
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/placement_flow.png)
 
-## BLock diagram:
+## Block diagram:
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/total_flow.png)
 
 
