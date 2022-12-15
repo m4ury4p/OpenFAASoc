@@ -162,26 +162,14 @@ The floorplan.odb and floorplan.sdc files will be passed to our next stage, whic
 Then the remaining steps will take place and our flow will be complete.
 
 
-Currently trying to figure out how to convert.odb files into .def files which can be viewed using klayout or magic tools.
+#Future plans:
 
-<h4> Running the OpenFASOC Flow for temperature sensor generator </h4>
+Trying to learn more about the .odb files and how this flow can be further optimized. Also trying to make some improvements with the OpenROAD tool.
 
-1. Clone the openfasoc git repo using the below command
+#Errors encountered:
 
-```
-git clone https://github.com/idea-fasoc/openfasoc
-```
+- lemon version problem
 
-2. Move to the required temp-sense-gen directory 
-```
-cd openfasoc/generators/temp-sense-gen
-```
-
-3. Give the following commands
-
-```
-make
-```
 
 ## Author 
 
@@ -190,13 +178,13 @@ make
 
 ## Contributors 
 
-- **Maurya Patel** 
-- **Kunal Ghosh** 
+- **Maurya Patel**
 
 
 ## Acknowledgments
 
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Tejas BN, MTech Student, IIIT Bangalore
 
 ## Contact Information
 
