@@ -146,6 +146,13 @@ The project directory in flow contains the python script to access the
   After running the flow, the results directory will be generated. It will look like this:
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/ss_folder.png)
 
+
+The die area is as shown below:
+![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/floorplan_stats.png)
+
+The final output is shown below:
+![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/final.png)
+
   The flow after synthesis ot floorplan is given here.
 <b>input</b> : Verilog netlist files which contain the description of the circuit like TEMP_analog_hv_nl.v and TEMP_analog_lv_nl.v,1_synthesis.odb.
 <b>output</b> : 2_1floorplan.odb , floorplan_io.odb, floorplan.macro.odb adn 2_floorplan.sdc files.
