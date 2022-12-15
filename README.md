@@ -6,20 +6,36 @@ Repository containing my part in openfaasoc project flow
 The FASoC Program is focused on developing a complete system-on-chip (SoC) synthesis tool from user specification to GDSII. FASoC leverages a differentiating technology to automatically synthesize “correct-by-construction” Verilog descriptions for both analog and digital circuits and enable a portable, single pass implementation flow. The SoC synthesis tool realizes analog circuits, including PLLs, power management, ADCs, and sensor interfaces by recasting them as structures composed largely of digital components while maintaining analog performance. They are then expressed as synthesizable Verilog blocks composed of digital standard cells augmented with a few auxiliary cells generated with an automatic cell generation tool. By expanding the IPXACT format and the Socrates tool from ARM, we then enable composition of vast numbers of digital and analog components into a single correct-by-construction design. 
 
 
-## Tools for installation:
+# Tools for installation:
 <h4> Tool installation steps can be found here: </h4>
 
 https://openfasoc.readthedocs.io/en/latest/getting-started.html#installation
 
 You can either follow the express installation or the manual installation steps.
 
-The following tools will be required for complete flow
-1. OpenRoad
-2. Magic
-3. Yosys
-4. Klayout
-5. Open_PDK
-6. Netgen
+## The following tools will be required for complete flow
+
+### 1. OpenROAD
+
+https://github.com/The-OpenROAD-Project/OpenROAD
+<br>
+### 2. Magic
+https://github.com/RTimothyEdwards/magic
+<br>
+### 3. Yosys
+https://github.com/The-OpenROAD-Project/yosys
+<br>
+### 4. Klayout
+https://github.com/KLayout/klayout
+<br>
+### 5. Open_PDK
+
+https://github.com/RTimothyEdwards/open_pdks
+<br>
+### 6. Netgen
+
+https://github.com/RTimothyEdwards/netgen
+<br>
 
 ## Understanding the floorplan flow:
 
