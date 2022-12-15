@@ -13,10 +13,9 @@ https://openfasoc.readthedocs.io/en/latest/getting-started.html#installation
 
 You can either follow the express installation or the manual installation steps.
 
-## The following tools will be required for complete flow
+## These are the github links for tools in case they aren't available as package repositories:
 
 ### 1. OpenROAD
-
 https://github.com/The-OpenROAD-Project/OpenROAD
 <br>
 ### 2. Magic
@@ -29,11 +28,9 @@ https://github.com/The-OpenROAD-Project/yosys
 https://github.com/KLayout/klayout
 <br>
 ### 5. Open_PDK
-
 https://github.com/RTimothyEdwards/open_pdks
 <br>
 ### 6. Netgen
-
 https://github.com/RTimothyEdwards/netgen
 <br>
 
