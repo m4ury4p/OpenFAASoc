@@ -7,8 +7,9 @@ The FASOC Program is focused on developing a complete system-on-chip (SoC) synth
 
 
 
-
-
+This is an example of auxiliary cell:
+![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/header_cell.png)
+![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/SLC.png)
 
 
 
@@ -132,7 +133,9 @@ The placement check happens here:
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/placement_flow.png)
 
 
-## Detailed explanation:
+# Detailed explanation:
+
+In our part, we take the synth.v file and synth.sdc files as input and run the floorplan.tcl script. The reports of the whole process will be stored into floorplan.log files.
 
 The project directory in flow contains the python script to access the 
 
@@ -145,7 +148,12 @@ The project directory in flow contains the python script to access the
 
   The flow after synthesis ot floorplan is given here.
 <b>input</b> : Verilog netlist files which contain the description of the circuit like TEMP_analog_hv_nl.v and TEMP_analog_lv_nl.v,1_synthesis.odb.
-<b>output</b> : 2_1floorplan.odb , floorplan_io.odb, floorplan.macro.odb.
+<b>output</b> : 2_1floorplan.odb , floorplan_io.odb, floorplan.macro.odb adn 2_floorplan.sdc files.
+
+
+The floorplan.odb and floorplan.sdc files will be passed to our next stage, which is placement in our case.<br>
+Then the remaining steps will take place and our flow will be complete.
+
 
 Currently trying to figure out how to convert.odb files into .def files which can be viewed using klayout or magic tools.
 
