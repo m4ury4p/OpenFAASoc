@@ -173,7 +173,8 @@ Trying to learn more about the .odb files and how this flow can be further optim
 
 # Errors encountered:
 
-- lemon version problem
+- lemon version problem:<br>
+https://github.com/The-OpenROAD-Project/OPENROAD_USERS_READ_ME_FIRST/issues/3
 
 # Note:
 There were some issues in running the flow in my system. The whole flow can be viewed in the given github repo:<br>
