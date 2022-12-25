@@ -1,5 +1,5 @@
 # OpenFASOC flow
-Repository containing my part in openfaasoc project flow
+Repository containing my part in openfasoc project flow which is Floorplan.
 
 
 ## Overview to FASOC flow:
