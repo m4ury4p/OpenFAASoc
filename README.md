@@ -162,13 +162,17 @@ The floorplan.odb and floorplan.sdc files will be passed to our next stage, whic
 Then the remaining steps will take place and our flow will be complete.
 
 
-#Future plans:
+# Future plans:
 
 Trying to learn more about the .odb files and how this flow can be further optimized. Also trying to make some improvements with the OpenROAD tool.
 
-#Errors encountered:
+# Errors encountered:
 
 - lemon version problem
+
+# Note:
+There were some issues in running the flow in my system. The whole flow can be viewed in the given github repo:<br>
+https://github.com/TejasBN28/OpenFASOC#4-PLL-Generator
 
 
 ## Author 
