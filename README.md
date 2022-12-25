@@ -181,6 +181,11 @@ There were some issues in running the flow in my system. The whole flow can be v
 https://github.com/TejasBN28/OpenFASOC#4-PLL-Generator
 
 
+# References:
+- https://openfasoc.readthedocs.io/en/latest/flow-tempsense.html#generator-flow
+- https://github.com/TejasBN28/OpenFASOC#4-PLL-Generator
+- https://github.com/idea-fasoc/OpenFASOC
+
 ## Author 
 
 - **Maurya Patel** 
