@@ -147,10 +147,15 @@ The project directory in flow contains the python script to access the
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/ss_folder.png)
 
 
-The die area is as shown below:
+The die area is as shown below:<br>
+
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/floorplan_stats.png)
 
 The final output is shown below:
+
+```
+/temp-sense-gen/flow/results/sky130hd/tempsense$ klayout 6_final.gds
+```
 ![image](https://github.com/m4ury4p/OpenFAASoc_flow/blob/main/final.png)
 
   The flow after synthesis ot floorplan is given here.
